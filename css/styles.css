@@ -1,24 +1,22 @@
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700;1,800;1,900&family=Sacramento&display=swap');
 @import 'color.css';
 
-:root{
+:root {
   font-family: 'Barlow Condensed', sans-serif;
   background-color: var(--background);
   font-weight: 200;
-
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.theme-heading{
+.theme-heading {
   font-family: 'Sacramento', cursive;
 }
 
-.landing-footer-section{
+.landing-footer-section {
   padding: 2rem;
-  /* border-top: 2px solid; */
   margin: 2rem;
   display: flex;
   justify-content: center;
@@ -26,8 +24,8 @@ a{
   text-align: center;
 }
 
-#side-menu{
-  position:absolute;
+#side-menu {
+  position: absolute;
   z-index: 7;
   max-width: 20rem;
   height: 30rem;
@@ -35,25 +33,25 @@ a{
   box-shadow: 1px 1px 4px 4px var(--primary-light);
   color: var(--primary);
   background-color: var(--primary-light);
-
 }
-#side-menu:li){
+
+#side-menu:li) {
   color: var(--primary);
 }
 
-.hide{
-  display:none;
+.hide {
+  display: none;
 }
 
-.center-txt{
+.center-txt {
   text-align: center;
 }
 
-#login-bg{
-  height:100vh;
-  background: -webkit-linear-gradient(left, var(--primary);, var(--secondary));
+#login-bg {
+  height: 100vh;
+  background: -webkit-linear-gradient(left, var(--primary); , var(--secondary));
 }
 
-.center{
+.center {
   align-self: center;
 }
