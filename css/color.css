@@ -41,3 +41,8 @@ html{
 .secondary-light-bg{
   background-color: var(--secondary-light);
 }
+
+.primary{
+  color: var(--primary-light);
+  background-color: var(--primary);
+}
