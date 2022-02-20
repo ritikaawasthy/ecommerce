@@ -1,12 +1,13 @@
 let sideFilterBtn= document.getElementById('side-filter-btn');
 let sideFilter= document.getElementById('side-menu-filter');
 let whishListBtn= document.querySelector('.wishlist-btn');
-let alertItem= document.querySelector('#wishlist-alert');
+
 
 sideFilterBtn.addEventListener('click', ()=>{sideFilter.classList.toggle('hide'); console.log('show')})
 
 
 whishListBtn.addEventListener('click', ()=>{
+  let alertItem= document.querySelector('#wishlist-alert');
   console.log(alertItem);
   setTimeout(()=>{
     alertItem.classList.remove("hide");
