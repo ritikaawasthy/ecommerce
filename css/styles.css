@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;1,100;1,700;1,800;1,900&family=Sacramento&display=swap');
+@import 'color.css';
+
+html{
+  font-family: 'Barlow Condensed', sans-serif;
+  background-color: var(--background);
+  font-weight: 200;
+}
+
+.theme-heading{
+  font-family: 'Sacramento', cursive;
+}
+
+.landing-footer-section{
+  padding: 2rem;
+  /* border-top: 2px solid; */
+  margin: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#side-menu{
+  position:absolute;
+  z-index: 7;
+  max-width: 20rem;
+  height: 30rem;
+  border: 2px solid var(--primary-light);
+  box-shadow: 1px 1px 4px 4px var(--primary-light);
+  color: var(--primary);
+  background-color: var(--primary-light);
+
+}
+#side-menu:li){
+  color: var(--primary);
+}
+
+.hide{
+  display:none;
+}
+
+.center-txt{
+  text-align: center;  
+}
