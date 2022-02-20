@@ -6,8 +6,7 @@
   let slider1Rev= document.getElementById('slid-t-btn-rev');
   let slider2Rev= document.getElementById('slid-m-btn-rev');
   let slider3Rev= document.getElementById('slid-b-btn-rev');
-  let sideMenuBtn= document.getElementById('side-menu-btn');
-  let sideMenu= document.getElementById('side-menu');
+
 let currentPg= 1;
 let lastPage=3;
 
@@ -58,5 +57,3 @@ slider3Rev.addEventListener('mouseover', ()=>{
   slider3ImgLeft.src= imgPath +`left-bottom-${currentPg}.webp`;
   slider3ImgRight.src= imgPath +`right-bottom-${currentPg}.webp`;
 });
-
-sideMenuBtn.addEventListener('click', ()=>{sideMenu.classList.toggle('hide'); console.log('show')})

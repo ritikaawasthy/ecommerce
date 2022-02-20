@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Thrift</title>
+  <link rel="stylesheet" href="https://traquil-ui.netlify.app/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/854a67f594.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <header>
+    <nav class="nav">
+      <div class="start">
+        <h2 class="theme-heading primary-col">Thrify with me</h2>
+      </div>
+      <div id="#wishlist-alert" class="hide">
+      </div>
+      <ul class="list list-inline f-m">
+        <li class=''>
+            <div class="input-container ">
+              <input placeholder=" " class="input w-full">
+              <label class="input-label f-s">Search</label>
+            </div>
+        </li>
+        <li class='active'>Login</li>
+        <li>Help</li>
+        <li><i class="fas fa-heart primary-col"></i></li>
+        <li ><i class="fas fa-shopping-cart"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="product-container">
+  <section class="product-head-menu-section">
+
+      <i class="fas fa-bars primary-col f-m" id="side-menu-btn"></i>
+      <hr >
+      <div class="">
+        <h2>Women</h2>
+        <p class="center-txt f-m">Dress</p>
+      </div>
+      <hr>
+
+      <div class="">
+        <i id="side-filter-btn" class="f-s">Filters</i>
+        <hr class="primary-col">
+      </div>
+
+  </section>
+</div>
+
+<div class="grid-three-layout-container">
+  <div class="grid-three-layout-left">
+  <ul class="list-container list-stacked hide" id="side-menu" >
+    <li class="fw-b" >Women</li>
+    <li>
+      <ul class="list-container list-stacked" id="sub-menu">Clothing
+      <li>Dress</li>
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Skirt</li>
+      <li>Sports Wear</li>
+      <li>Lounge Wear</li>
+      <li>Shape Wear</li>
+      </ul>
+    </li>
+    <li class="fw-b">Men</li>
+    <li>
+      <ul class="list-container list-stacked " id="sub-menu">Clothing
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Sports</li>
+      </ul>
+    </li>
+    <li class="fw-b" >Accessories</li>
+    <li class="fw-b">Bags</li>
+    <li class="fw-b">Footwear</li>
+  </ul>
+  </div>
+
+  <div class="grid-three-layout-right " >
+
+        <ul class="list-container list-stacked  hide" id="side-menu-filter" >
+          <li class="fw-b" >Color</li>
+          <li>
+            <ul class="list-container list-stacked" id="sub-menu-filter">
+            <li>Red</li>
+            <li>Black</li>
+            <li>Green</li>
+            <li>Blue</li>
+            <li>White</li>
+            <li>Pink</li>
+            </ul>
+          </li>
+          <li class="fw-b">Size</li>
+          <li>
+            <ul class="list-container list-stacked " id="sub-menu-filter">
+            <li>XS</li>
+            <li>S</li>
+            <li>M</li>
+            <li>L</li>
+            <li>XL</li>
+            <li>XXL</li>
+            </ul>
+          </li>
+        </ul>
+  </div>
+</div>
+
+
+<section class="product-container">
+
+    <section class="grid-three-layout-container">
+      <section class="grid-three-layout-left container">
+
+        <article class="card card-shadow w-m">
+          <div class="background">
+            <img class="product-img-full" src="/media/products/women/dress/1.webp" alt="">
+          </div>
+          <div class="card-content ">
+          <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl wishlist-btn"></i>
+            <i class="sale-tag sale-tag-bg end">
+              SALE
+              <i class="fa-solid fa-tag"></i>
+            </i>
+          </div>
+          <div class="card-content-foot inline">
+              <a href="#" class="btn primary mg-b-s mg-l-s center">
+                <i class="fas fa-cart"></i>Add to cart
+              </a>
+              <div class="card-content stacked end">
+                <p class="original-price">1599 Rs</p>
+                <p class="sale-price">780 Rs</p>
+              </div>
+
+          </div>
+          </article>
+
+      </section>
+
+        <section class="grid-three-layout-center container">
+
+                  <article class="card card-shadow w-m">
+                    <div class="background">
+                      <img class="product-img-full" src="/media/products/women/dress/2.webp" alt="">
+                    </div>
+                    <div class="card-content ">
+                      <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+                      <i class="sale-tag sale-tag-bg end">
+                        SALE
+                        <i class="fa-solid fa-tag"></i>
+                      </i>
+                    </div>
+                    <div class="card-content-foot inline">
+                        <a href="#" class="btn primary mg-b-s mg-l-s center">
+                          <i class="fas fa-cart"></i>Add to cart
+                        </a>
+                        <div class="card-content stacked end">
+                          <p class="original-price">1599 Rs</p>
+                          <p class="sale-price">780 Rs</p>
+                        </div>
+                    </div>
+                    </article>
+        </section>
+
+        <section class="grid-three-layout-right container">
+
+                  <article class="card card-shadow w-m">
+                    <div class="background">
+                      <img class="product-img-full" src="/media/products/women/dress/3.webp" alt="">
+                    </div>
+                    <div class="card-content ">
+                      <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+                      <i class="sale-tag sale-tag-bg end">
+                        SALE
+                        <i class="fa-solid fa-tag"></i>
+                      </i>
+                    </div>
+                    <div class="card-content-foot inline">
+                        <a href="#" class="btn primary mg-b-s mg-l-s center">
+                          <i class="fas fa-cart"></i>Add to cart
+                        </a>
+                        <div class="card-content stacked end">
+                          <p class="original-price">1599 Rs</p>
+                          <p class="sale-price">780 Rs</p>
+                        </div>
+                    </div>
+                    </article>
+
+        </section>
+    </section>
+
+    <p class="center-txt f-m mg-b-l">Tops</p>
+    <section class="product-four-container">
+      <section class="grid-two-layout-container">
+        <div class="grid-two-layout-left">
+          <article class="card card-shadow w-s">
+            <div class="background">
+              <img class="product-img-s" src="/media/products/women/top/1.webp" alt="">
+            </div>
+            <div class="card-content ">
+              <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+              <i class="sale-tag sale-tag-bg end">
+                SALE
+                <i class="fa-solid fa-tag"></i>
+              </i>
+            </div>
+            <div class="card-content-foot inline">
+                <a href="#" class="btn primary mg-b-s mg-l-s center">
+                  <i class="fas fa-cart"></i>Add to cart
+                </a>
+                <div class="card-content stacked end">
+                  <p class="original-price">1599 Rs</p>
+                  <p class="sale-price">780 Rs</p>
+                </div>
+            </div>
+            </article>
+        </div>
+        <div class="grid-two-layout-right">
+          <article class="card card-shadow w-s">
+            <div class="background">
+              <img class="product-img-s" src="/media/products/women/top/2.webp" alt="">
+            </div>
+            <div class="card-content ">
+              <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+              <i class="sale-tag sale-tag-bg end">
+                SALE
+                <i class="fa-solid fa-tag"></i>
+              </i>
+            </div>
+            <div class="card-content-foot inline">
+                <a href="#" class="btn primary mg-b-s mg-l-s center">
+                  <i class="fas fa-cart"></i>Add to cart
+                </a>
+                <div class="card-content stacked end">
+                  <p class="original-price">1599 Rs</p>
+                  <p class="sale-price">780 Rs</p>
+                </div>
+            </div>
+            </article>
+        </div>
+      </section>
+      <section class="grid-two-layout-container">
+        <div class="grid-two-layout-left">
+          <article class="card card-shadow w-s">
+            <div class="background">
+              <img class="product-img-s" src="/media/products/women/dress/3.webp" alt="">
+            </div>
+            <div class="card-content ">
+              <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+              <i class="sale-tag sale-tag-bg end">
+                SALE
+                <i class="fa-solid fa-tag"></i>
+              </i>
+            </div>
+            <div class="card-content-foot inline">
+                <a href="#" class="btn primary mg-b-s mg-l-s center">
+                  <i class="fas fa-cart"></i>Add to cart
+                </a>
+                <div class="card-content stacked end">
+                  <p class="original-price">1599 Rs</p>
+                  <p class="sale-price">780 Rs</p>
+                </div>
+            </div>
+            </article>
+        </div>
+        <div class="grid-two-layout-right">
+          <article class="card card-shadow w-s">
+            <div class="background">
+              <img class="product-img-s" src="/media/products/women/dress/3.webp" alt="">
+            </div>
+            <div class="card-content ">
+              <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+              <i class="sale-tag sale-tag-bg end">
+                SALE
+                <i class="fa-solid fa-tag"></i>
+              </i>
+            </div>
+            <div class="card-content-foot inline">
+                <a href="#" class="btn primary mg-b-s mg-l-s center">
+                  <i class="fas fa-cart"></i>Add to cart
+                </a>
+                <div class="card-content stacked end">
+                  <p class="original-price">1599 Rs</p>
+                  <p class="sale-price">780 Rs</p>
+                </div>
+            </div>
+            </article>
+        </div>
+
+      </section>
+    </section>
+
+
+    <p class="center-txt f-m mg-b-m mg-t-m">Jeans</p>
+    <section class="grid-three-layout-container">
+      <section class="grid-three-layout-left container">
+
+        <article class="card card-shadow w-m">
+          <div class="background">
+            <img class="product-img-full" src="/media/products/women/dress/1.webp" alt="">
+          </div>
+          <div class="card-content ">
+            <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+            <i class="sale-tag sale-tag-bg end">
+              SALE
+              <i class="fa-solid fa-tag"></i>
+            </i>
+          </div>
+          <div class="card-content-foot inline">
+              <a href="#" class="btn primary mg-b-s mg-l-s center">
+                <i class="fas fa-cart"></i>Add to cart
+              </a>
+              <div class="card-content stacked end">
+                <p class="original-price">1599 Rs</p>
+                <p class="sale-price">780 Rs</p>
+              </div>
+          </div>
+          </article>
+
+      </section>
+
+        <section class="grid-three-layout-center container">
+
+                  <article class="card card-shadow w-m">
+                    <div class="background">
+                      <img class="product-img-full" src="/media/products/women/jeans/1.webp" alt="">
+                    </div>
+                    <div class="card-content ">
+                      <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl"></i>
+                      <i class="sale-tag sale-tag-bg end">
+                        SALE
+                        <i class="fa-solid fa-tag"></i>
+                      </i>
+                    </div>
+                    <div class="card-content-foot inline">
+                        <a href="#" class="btn primary mg-b-s mg-l-s center">
+                          <i class="fas fa-cart"></i>Add to cart
+                        </a>
+                        <div class="card-content stacked end">
+                          <p class="original-price">1599 Rs</p>
+                          <p class="sale-price">780 Rs</p>
+                        </div>
+                    </div>
+                    </article>
+        </section>
+
+        <section class="grid-three-layout-right container">
+
+                  <article class="card card-shadow w-m">
+                    <div class="background">
+                      <img class="product-img-full" src="/media/products/women/jeans/2.webp" alt="">
+                    </div>
+                    <div class="card-content ">
+                      <i class="fas fa-heart primary-col white-trans-bg card-icon-bg-round f-xl wishlist-btn"></i>
+                      <i class="sale-tag sale-tag-bg end">
+                        SALE
+                        <i class="fa-solid fa-tag"></i>
+                      </i>
+                    </div>
+                    <div class="card-content-foot inline">
+                        <a href="#" class="btn primary mg-b-s mg-l-s center">
+                          <i class="fas fa-cart"></i>Add to cart
+                        </a>
+                        <div class="card-content stacked end">
+                          <p class="original-price">1599 Rs</p>
+                          <p class="sale-price">780 Rs</p>
+                        </div>
+                    </div>
+                    </article>
+
+        </section>
+    </section>
+
+</section>
+
+<script type="text/javascript" src="/js/filter.js"></script>
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
