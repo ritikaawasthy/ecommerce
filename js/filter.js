@@ -1,20 +1,21 @@
 let sideFilterBtn= document.getElementById('side-filter-btn');
 let sideFilter= document.getElementById('side-menu-filter');
-let whishListBtn= document.querySelector('.wishlist-btn');
+let wishListBtn= document.querySelectorAll('.wishlist-btn');
+let alertItem= document.querySelector('#wishlist-alert');
+let alertTxt= document.querySelector('#wishlist-alert-txt');
+
+console.log(wishListBtn);
 
 
 sideFilterBtn.addEventListener('click', ()=>{sideFilter.classList.toggle('hide'); console.log('show')})
 
 
-whishListBtn.addEventListener('click', ()=>{
-  let alertItem= document.querySelector('#wishlist-alert');
-  console.log(alertItem);
-  setTimeout(()=>{
+wishListBtn.forEach(wishBtn=>{
+  wishBtn.addEventListener('click', ()=>{
     alertItem.classList.remove("hide");
-    alertItem.innerHtml=`<div class="alert primary-col primary-light-bg" >
-    <p>This item is added to your wishlist</p>
-    </div>`
-    // alertItem.classList.remove("hide");
-  }, 1000);
-  alertItem.classList.add("hide");
+    alertTxt.innerText='This item is added to your wishlist';
+    setTimeout(()=>{
+      alertItem.classList.add("hide");
+    }, 1000);
+  });
 });

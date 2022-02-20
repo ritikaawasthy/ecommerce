@@ -118,3 +118,10 @@ a {
   justify-content: center;
   gap:0.2rem;
 }
+
+#wishlist-alert{
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+  z-index:10;
+}
