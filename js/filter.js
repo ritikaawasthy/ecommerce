@@ -4,9 +4,6 @@ let wishListBtn= document.querySelectorAll('.wishlist-btn');
 let alertItem= document.querySelector('#wishlist-alert');
 let alertTxt= document.querySelector('#wishlist-alert-txt');
 
-console.log(wishListBtn);
-
-
 sideFilterBtn.addEventListener('click', ()=>{sideFilter.classList.toggle('hide'); console.log('show')})
 
 
