@@ -125,3 +125,12 @@ a {
   left: 35vw;
   z-index:10;
 }
+
+.out-of-stock{
+  opacity:0.4;
+}
+
+.out-of-stock-head{
+  position:relative;
+  z-index: 3;
+}
