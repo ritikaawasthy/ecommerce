@@ -83,30 +83,58 @@
   </div>
 
   <div class="grid-three-layout-right " >
-
         <ul class="list-container list-stacked  hide" id="side-menu-filter" >
-          <li class="fw-b" >Color</li>
-          <li>
-            <ul class="list-container list-stacked" id="sub-menu-filter">
-            <li>Red</li>
-            <li>Black</li>
-            <li>Green</li>
-            <li>Blue</li>
-            <li>White</li>
-            <li>Pink</li>
-            </ul>
-          </li>
-          <li class="fw-b">Size</li>
-          <li>
-            <ul class="list-container list-stacked " id="sub-menu-filter">
-            <li>XS</li>
-            <li>S</li>
-            <li>M</li>
-            <li>L</li>
-            <li>XL</li>
-            <li>XXL</li>
-            </ul>
-          </li>
+          <div class="container">
+            <i class="fas fa-close secondary-col"></i>
+            <a class="end">Clear</a>
+          </div>
+          <p class="fw-b">Price</p>
+          <form class="">
+            <div class="input-container  ">
+              <input placeholder=" "  type="radio" name="filter-price" class="input">
+              <label class="f-s">High - Low</label>
+              <input placeholder=" "  type="radio" name="filter-price" class="input">
+              <label class="f-s">Low - High</label>
+            </div>
+          </form>
+
+          <p class="fw-b">Categories</p>
+          <form class="">
+            <div class="input-container ">
+              <p class="fw-reg">Gender</p>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Women</label>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Men</label>
+            </div>
+            <div class="input-container ">
+              <p class="fw-reg">Apparel</p>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Dress</label>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">T-shirts</label>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Jeans</label>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Jackets</label>
+            </div>
+            <div class="input-container ">
+              <p class="fw-reg">Accessories</p>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Shoes</label>
+              <input placeholder=" "  type="checkbox" name="filter-price" class="input">
+              <label class="f-s">Bags</label>
+            </div>
+          </form>
+
+          <p class="fw-b">Rating</p>
+          <form class="">
+            <div class="input-container  ">
+              <input placeholder=" "  type="range" min=1 max=5 name="filter-price" class="input secondary-col">
+            </div>
+          </form>
+
+
         </ul>
   </div>
 </div>
