@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Thrift</title>
+  <link rel="stylesheet" href="https://traquil-ui.netlify.app/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/854a67f594.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <header>
+    <nav class="nav">
+      <div class="start">
+        <h2 class="theme-heading primary-col">Thrify with me</h2>
+        <i class="fas fa-bars primary-col f-m" id="side-menu-btn"></i>
+      </div>
+      <ul class="list list-inline f-m">
+        <li class=''>
+            <div class="input-container ">
+              <input placeholder=" " class="input w-full">
+              <label class="input-label f-s">Search</label>
+            </div>
+        </li>
+        <li class='active'>Login</li>
+        <li>Help</li>
+        <li ><i class="fas fa-shopping-cart"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <ul class="list-container list-stacked hide" id="side-menu" >
+    <li class="fw-b" >Women</li>
+    <li>
+      <ul class="list-container list-stacked" id="sub-menu">Clothing
+      <li>All</li>
+      <li>Dress</li>
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Skirt</li>
+      <li>Sports Wear</li>
+      <li>Lounge Wear</li>
+      </ul>
+    </li>
+    <li class="fw-b">Men</li>
+    <li>
+      <ul class="list-container list-stacked " id="sub-menu">Clothing
+      <li>All</li>
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Sports</li>
+      </ul>
+    </li>
+    <li class="fw-b" >Accessories</li>
+    <li class="fw-b">Bags</li>
+    <li class="fw-b">Footwear</li>
+  </ul>
+
+<section class="slider-top">
+    <h2 class="center-txt fw-reg primary-col">Clothing</h2>
+    <section class="grid-two-layout-container">
+      <div class="container fl-end">
+        <article class="grid-two-layout-left">
+            <div class="card w-xl">
+              <img src="/media/home/left-top-1.webp" alt="" id="slid-t-img-left" class="background slider-img">
+              <div class="card-content stacked">
+                <h3 class="fw-li">Women</h3>
+                <i class="fas fa-angles-left card-icon left f-l " id="slid-t-btn-rev"></i>
+                <p>1920</p>
+              </div>
+            </div>
+        </article>
+      </div>
+        <div class="container fl-start">
+        <article class="grid-two-layout-left">
+            <div class="card w-xl">
+              <img src="/media/home/right-top-1.webp" id="slid-t-img-right"  alt="" class="background">
+              <div class="card-content stacked end">
+                <h3 class="fw-li">Men</h3>
+                <i class="fas fa-angles-right card-icon left f-l" id="slid-t-btn-fwd"></i>
+                <p>1920</p>
+              </div>
+            </div>
+        </article>
+        </div>
+    </section>
+</section>
+
+<section class="slider-mid">
+  <h2 class="center-txt fw-reg primary-col">Accessories</h2>
+    <section class="grid-three-layout-container">
+
+      <article class="grid-three-layout-center">
+        <div class="card w-xl">
+          <img src="/media/home/center-1.webp" id="slid-m-img"  alt="" class="background">
+          <div class="card-content stacked end">
+            <h3 class="fw-li">Men</h3>
+            <i class="fas fa-angles-right card-icon left f-l" id="slid-m-btn-fwd"></i>
+            <p>1920</p>
+          </div>
+          <div class="card-content stacked start">
+            <h3 class="fw-li">Women</h3>
+            <i class="fas fa-angles-left card-icon left f-l" id="slid-m-btn-rev"></i>
+            <p>1920</p>
+          </div>
+
+        </div>
+      </article>
+    </section>
+</section>
+
+
+<section class="slider-bottom">
+  <h2 class="center-txt fw-reg primary-col">Footwear</h2>
+    <section class="grid-two-layout-container">
+      <div class="container fl-end">
+        <article class="grid-two-layout-left">
+            <div class="card w-xl">
+              <img src="/media/home/left-bottom-1.webp"  id="slid-b-img-left"  alt="" class="background">
+              <div class="card-content stacked">
+                <h3 class="fw-li">Women</h3>
+                <i class="fas fa-angles-left card-icon left f-l" id="slid-b-btn-rev"></i>
+                <p>1920</p>
+              </div>
+            </div>
+        </article>
+      </div>
+        <div class="container fl-start">
+        <article class="grid-two-layout-left">
+            <div class="card w-xl">
+              <img src="/media/home/right-bottom-1.webp" id="slid-b-img-right"  alt="" class="background">
+              <div class="card-content stacked end">
+                <h3 class="fw-li">Men</h3>
+                <i class="fas fa-angles-right card-icon right f-l" id="slid-b-btn-fwd"></i>
+                <p>1920</p>
+              </div>
+            </div>
+        </article>
+        </div>
+    </section>
+</section>
+
+<hr class="primary-col">
+    <footer class="grid-three-layout-container">
+
+      <article class="grid-three-layout-left landing-footer-section">
+        <div class="">
+          <p class="f-s">Name and address of manufacturer</p>
+          <p>Industrial Textile</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+          <p>sed do eiusmod tempor incididunt ut labore sunt in culpa </p>
+          <p>qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+      </article>
+
+      <article class="grid-three-layout-center landing-footer-section">
+        <div class="">
+          <p class="f-l">Join our news letter</p>
+          <ul class="list list-inline">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+    </article>
+
+    <article class="grid-three-layout-right landing-footer-section">
+      <div class="">
+        <p class="f-s">Reach out to us</p>
+        <p>Industrial Textile</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+        <p>sed do eiusmod tempor incididunt ut labore sunt in culpa </p>
+        <p>qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+
+    </article>
+
+    </footer>
+<script type="text/javascript" src="/js/homepage.js"></script>
+</body>
+</html>
