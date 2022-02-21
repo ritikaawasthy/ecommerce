@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Thrift</title>
+  <link rel="stylesheet" href="https://traquil-ui.netlify.app/styles.css">
+  <link rel="stylesheet" href="/css/styles.css">
+    <script src="https://kit.fontawesome.com/854a67f594.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div id="wishlist-alert" class="alert hide primary-bg primary-light-col">
+    <p id="wishlist-alert-txt">
+
+    </p>
+  </div>
+  <header>
+    <nav class="nav">
+      <div class="start">
+        <h2 class="theme-heading primary-col">Thrify with me</h2>
+      </div>
+      <ul class="list list-inline f-m">
+        <li class=''>
+            <div class="input-container ">
+              <input placeholder=" " class="input w-full">
+              <label class="input-label f-s">Search</label>
+            </div>
+        </li>
+        <li class='active'>Login</li>
+        <li>Help</li>
+        <li><i class="fas fa-heart primary-col"></i></li>
+        <li ><i class="fas fa-shopping-cart"></i></li>
+      </ul>
+    </nav>
+  </header>
+
+<div class="product-container">
+  <section class="product-head-menu-section">
+
+      <i class="fas fa-bars primary-col f-m" id="side-menu-btn"></i>
+      <hr>
+      <div>
+        <h2 class="center-txt">Shopping Cart<span class="fas fa-shopping-cart"></span></h2>
+        <p class="center-txt f-m">Go ahead and buy before these items get out of stock</p>
+      </div>
+      <hr>
+  </section>
+</div>
+
+<ul class="list-container list-stacked hide" id="side-menu" >
+  <li class="fw-b" >Women</li>
+  <li>
+    <ul class="list-container list-stacked" id="sub-menu">Clothing
+    <li>Dress</li>
+    <li>T-shirts</li>
+    <li>Jackets</li>
+    <li>Jeans</li>
+    <li>Skirt</li>
+    <li>Sports Wear</li>
+    <li>Lounge Wear</li>
+    <li>Shape Wear</li>
+    </ul>
+  </li>
+  <li class="fw-b">Men</li>
+  <li>
+    <ul class="list-container list-stacked " id="sub-menu">Clothing
+    <li>T-shirts</li>
+    <li>Jackets</li>
+    <li>Jeans</li>
+    <li>Sports</li>
+    </ul>
+  </li>
+  <li class="fw-b" >Accessories</li>
+  <li class="fw-b">Bags</li>
+  <li class="fw-b">Footwear</li>
+</ul>
+
+<div class="product-container">
+<section class="grid-two-layout-container">
+  <article class="grid-two-layout-left">
+    <div class="container fl-end">
+   <div class="card w-xxl">
+     <div class="card-content card-shadow inline">
+       <img class="product-img-s" src="/media/products/women/top/2.webp" alt="">
+       <div class="card-content stacked">
+           <h3 class="primary-col">Mango</h3>
+           <p class="f-m">Blue casual top</p>
+           <p class="fw-light">Sold by: xyz traders</p>
+         <div class="card-content inline mg-t-l">
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Size: XS</a>
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Quantity: 1</a>
+         </div>
+         <p><i class="fas fa-check mg-r-s"></i>Delivery before 24th february </p>
+         <p class="f-l end mg-t-l">675 Rs</p>
+       </div>
+       <i class="fas fa-close f-l end"></i>
+     </div>
+   </div>
+   <div class="card w-xxl">
+     <div class="card-content card-shadow inline">
+       <img class="product-img-s" src="/media/products/women/top/2.webp" alt="">
+       <div class="card-content stacked">
+           <h3 class="primary-col">Mango</h3>
+           <p class="f-m">Blue casual top</p>
+           <p class="fw-light">Sold by: xyz traders</p>
+         <div class="card-content inline mg-t-l">
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Size: XS</a>
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Quantity: 1</a>
+         </div>
+         <p><i class="fas fa-check mg-r-s"></i>Delivery before 24th february </p>
+         <p class="f-l end mg-t-l">675 Rs</p>
+       </div>
+       <i class="fas fa-close f-l end"></i>
+     </div>
+   </div>
+   <div class="card w-xxl">
+     <div class="card-content card-shadow inline">
+       <img class="product-img-s" src="/media/products/women/top/2.webp" alt="">
+       <div class="card-content stacked">
+           <h3 class="primary-col">Mango</h3>
+           <p class="f-m">Blue casual top</p>
+           <p class="fw-light">Sold by: xyz traders</p>
+         <div class="card-content inline mg-t-l">
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Size: XS</a>
+           <a href="#" class="badge badge-text primary-bg primary-light-col f-s"><i class="fa-solid fa-square-down"></i>Quantity: 1</a>
+         </div>
+         <p><i class="fas fa-check mg-r-s"></i>Delivery before 24th february </p>
+         <p class="f-l end mg-t-l">675 Rs</p>
+       </div>
+       <i class="fas fa-close f-l end"></i>
+     </div>
+   </div>
+  </div>
+ </article>
+<article class="grid-two-layout-right fl-center">
+  <div class="container-col fl-space">
+    <div class="card card-shadow w-xxl pd-t-l pd-r-l pd-l-l pd-b-l">
+
+      <ul>
+        <li> <h1 class="center-txt primary-col">Bill</h1></li>
+        <li><p class="f-l primary-col">Price details:</p></li>
+        <li class="card-content inline f-m"><p>Total MRP</p>
+        <p class="end">8871 Rs</p>
+      </li>
+      <li class="card-content inline f-m"><p>Total MRP</p>
+      <p class="end">8871 Rs</p>
+    </li>
+    <li class="card-content inline f-m"><p>Total MRP</p>
+    <p class="end">8871 Rs</p>
+  </li>
+  <hr>
+  <li class="card-content inline f-m"><p>Total MRP</p>
+  <p class="end">8871 Rs</p>
+</li>
+  </ul>
+
+  <p class="f-l primary-col">Offers and coupons</p>
+      <div class="card w-xxl primary-light-bg">
+        <div class="card-content inline fl-center">
+          <p class="f-m"><i class="fas fa-tag primary-col mg-r-s"></i>Apply Coupon</p>
+          <div class="input-container f-m">
+            <input type="text" class="input" placeholder=" " value="">
+            <label class="input-label fw-reg" for="">Coupon Code</label>
+          </div>
+          <a class="btn btn-bordered primary-col f-m fw-b end" href="#">Submit</a>
+        </div>
+      </div>
+      <a href="#" class="btn primary-bg primary-light-col mg-t-l f-xl center-txt">Place Order</a>
+    </div>
+
+  </div>
+  </article>
+</section>
+</div>
+
+<div class="grid-three-layout-container">
+  <div class="grid-three-layout-left">
+  <ul class="list-container list-stacked hide" id="side-menu" >
+    <li class="fw-b" >Women</li>
+    <li>
+      <ul class="list-container list-stacked" id="sub-menu">Clothing
+      <li>Dress</li>
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Skirt</li>
+      <li>Sports Wear</li>
+      <li>Lounge Wear</li>
+      <li>Shape Wear</li>
+      </ul>
+    </li>
+    <li class="fw-b">Men</li>
+    <li>
+      <ul class="list-container list-stacked " id="sub-menu">Clothing
+      <li>T-shirts</li>
+      <li>Jackets</li>
+      <li>Jeans</li>
+      <li>Sports</li>
+      </ul>
+    </li>
+    <li class="fw-b" >Accessories</li>
+    <li class="fw-b">Bags</li>
+    <li class="fw-b">Footwear</li>
+  </ul>
+  </div>
+</div>
+
+
+
+
+<hr class="primary-col">
+    <footer class="grid-three-layout-container">
+
+      <article class="grid-three-layout-left landing-footer-section">
+        <div >
+          <p class="f-s">Name and address of manufacturer</p>
+          <p>Industrial Textile</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+          <p>sed do eiusmod tempor incididunt ut labore sunt in culpa </p>
+          <p>qui officia deserunt mollit anim id est laborum.</p>
+        </div>
+
+      </article>
+
+      <article class="grid-three-layout-center landing-footer-section">
+        <div class="">
+          <p class="f-l">Join our news letter</p>
+          <ul class="list list-inline">
+            <li>Instagram</li>
+            <li>Facebook</li>
+            <li>Youtube</li>
+          </ul>
+        </div>
+    </article>
+
+    <article class="grid-three-layout-right landing-footer-section">
+      <div class="">
+        <p class="f-s">Reach out to us</p>
+        <p>Industrial Textile</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, </p>
+        <p>sed do eiusmod tempor incididunt ut labore sunt in culpa </p>
+        <p>qui officia deserunt mollit anim id est laborum.</p>
+      </div>
+    </article>
+
+    </footer>
+
+<script type="text/javascript" src="/js/main.js"></script>
+</body>
+</html>
