@@ -80,7 +80,7 @@ a {
 
 .product-img-s{
   width: 15rem;
-  height: 25rem;
+  height: 20rem;
 }
 
 .sale-tag{
@@ -98,7 +98,7 @@ a {
 }
 
 .product-container{
-  padding: 0.5rem 5rem;
+  padding: 0.5rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -124,4 +124,13 @@ a {
   top: 5vh;
   left: 35vw;
   z-index:10;
+}
+
+.out-of-stock{
+  opacity:0.4;
+}
+
+.out-of-stock-head{
+  position:relative;
+  z-index: 3;
 }
