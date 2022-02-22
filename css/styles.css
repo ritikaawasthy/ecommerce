@@ -135,3 +135,7 @@ a {
   position:relative;
   z-index: 3;
 }
+
+#landing-img{
+  height: 800px;
+}

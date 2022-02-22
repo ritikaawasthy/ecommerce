@@ -1,5 +1,7 @@
 
   let imgPath="/media/home/";
+  let landingFwd= document.getElementById('landing-fwd');
+  let landingRev= document.getElementById('landing-rev');
   let slider1Fwd= document.getElementById('slid-t-btn-fwd');
   let slider2Fwd= document.getElementById('slid-m-btn-fwd');
   let slider3Fwd= document.getElementById('slid-b-btn-fwd');
@@ -9,6 +11,14 @@
 
 let currentPg= 1;
 let lastPage=3;
+
+
+landingFwd.addEventListener('mouseover', ()=>{
+  let landingImg= document.getElementById('landing-img');
+  currentPg=(currentPg==lastPage)? 1: currentPg+1;
+  landingImg.src= imgPath +`/landing/${currentPg}.webp`;
+});
+
 
 slider1Fwd.addEventListener('mouseover', ()=>{
   let slider1ImgLeft= document.getElementById('slid-t-img-left');
